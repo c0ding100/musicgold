@@ -253,45 +253,39 @@
   </nav>
   
 
-    <!-- Hero Section -->
-    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <!-- 🔥 Background Video -->
+    
+    <!-- Hero Section Redesign -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center">
+        <!-- Background Video -->
         <video id="heroVideo" autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="teeway.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <button id="toggleMute" class="absolute top-4 right-4 z-20 bg-black bg-opacity-50 text-yellow-500 font-semibold px-4 py-2 rounded hover:bg-opacity-80 transition">
-            🔇
-          </button>
+          <source src="teeway.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="absolute inset-0 bg-black opacity-60 z-0"></div>
+      
+        <!-- Content -->
+        <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12 py-20 flex flex-col lg:flex-row items-center justify-between gap-12">
           
-    <div class="absolute inset-0 bg-black opacity-55 z-0"></div>
-
-        <!-- Particles Background -->
-        <div class="particles" id="particles"><div class="particle" style="left: 9.74937%; animation-delay: 13.3639s; animation-duration: 22.6583s;"></div><div class="particle" style="left: 97.2059%; animation-delay: 0.252128s; animation-duration: 17.3039s;"></div><div class="particle" style="left: 47.6995%; animation-delay: 11.3937s; animation-duration: 22.9611s;"></div><div class="particle" style="left: 31.3396%; animation-delay: 1.69991s; animation-duration: 21.535s;"></div><div class="particle" style="left: 24.6266%; animation-delay: 14.8133s; animation-duration: 17.1272s;"></div><div class="particle" style="left: 86.1315%; animation-delay: 1.922s; animation-duration: 15.4374s;"></div><div class="particle" style="left: 6.78636%; animation-delay: 7.58879s; animation-duration: 16.8175s;"></div><div class="particle" style="left: 62.443%; animation-delay: 7.03051s; animation-duration: 22.42s;"></div><div class="particle" style="left: 91.5318%; animation-delay: 3.4869s; animation-duration: 23.8241s;"></div><div class="particle" style="left: 45.5482%; animation-delay: 6.80764s; animation-duration: 24.5505s;"></div><div class="particle" style="left: 26.0577%; animation-delay: 10.0021s; animation-duration: 19.6498s;"></div><div class="particle" style="left: 22.7202%; animation-delay: 4.71208s; animation-duration: 19.744s;"></div><div class="particle" style="left: 99.9085%; animation-delay: 13.1274s; animation-duration: 17.0267s;"></div><div class="particle" style="left: 48.9174%; animation-delay: 8.55917s; animation-duration: 16.3262s;"></div><div class="particle" style="left: 88.558%; animation-delay: 10.735s; animation-duration: 19.5429s;"></div><div class="particle" style="left: 96.9169%; animation-delay: 4.71173s; animation-duration: 15.2536s;"></div><div class="particle" style="left: 25.8254%; animation-delay: 13.7644s; animation-duration: 22.3821s;"></div><div class="particle" style="left: 30.5957%; animation-delay: 13.9378s; animation-duration: 20.9948s;"></div><div class="particle" style="left: 60.2546%; animation-delay: 13.8462s; animation-duration: 18.182s;"></div><div class="particle" style="left: 88.3133%; animation-delay: 2.53315s; animation-duration: 16.3004s;"></div><div class="particle" style="left: 15.7169%; animation-delay: 1.6735s; animation-duration: 16.9771s;"></div><div class="particle" style="left: 18.0447%; animation-delay: 2.30162s; animation-duration: 18.9597s;"></div><div class="particle" style="left: 17.185%; animation-delay: 3.37038s; animation-duration: 22.4631s;"></div><div class="particle" style="left: 69.9848%; animation-delay: 5.72358s; animation-duration: 21.4432s;"></div><div class="particle" style="left: 6.88352%; animation-delay: 6.7846s; animation-duration: 15.7304s;"></div><div class="particle" style="left: 40.8446%; animation-delay: 4.63372s; animation-duration: 21.2109s;"></div><div class="particle" style="left: 66.2561%; animation-delay: 2.76029s; animation-duration: 24.4065s;"></div><div class="particle" style="left: 14.0436%; animation-delay: 7.43687s; animation-duration: 20.8803s;"></div><div class="particle" style="left: 69.7825%; animation-delay: 9.15101s; animation-duration: 15.2729s;"></div><div class="particle" style="left: 1.98557%; animation-delay: 13.5422s; animation-duration: 15.2874s;"></div><div class="particle" style="left: 1.57324%; animation-delay: 1.24021s; animation-duration: 21.254s;"></div><div class="particle" style="left: 95.7811%; animation-delay: 7.76239s; animation-duration: 15.6433s;"></div><div class="particle" style="left: 83.5995%; animation-delay: 8.3553s; animation-duration: 21.7188s;"></div><div class="particle" style="left: 1.97486%; animation-delay: 3.02543s; animation-duration: 23.8451s;"></div><div class="particle" style="left: 84.9117%; animation-delay: 8.40794s; animation-duration: 16.6905s;"></div><div class="particle" style="left: 1.61325%; animation-delay: 3.56635s; animation-duration: 22.7516s;"></div><div class="particle" style="left: 19.7784%; animation-delay: 0.737016s; animation-duration: 23.6661s;"></div><div class="particle" style="left: 17.0404%; animation-delay: 8.33623s; animation-duration: 16.942s;"></div><div class="particle" style="left: 12.5667%; animation-delay: 3.3271s; animation-duration: 16.5543s;"></div><div class="particle" style="left: 72.9309%; animation-delay: 12.2093s; animation-duration: 18.0455s;"></div><div class="particle" style="left: 12.569%; animation-delay: 8.41037s; animation-duration: 15.0997s;"></div><div class="particle" style="left: 9.45956%; animation-delay: 11.8865s; animation-duration: 16.7252s;"></div><div class="particle" style="left: 73.2468%; animation-delay: 3.59502s; animation-duration: 16.0848s;"></div><div class="particle" style="left: 95.4842%; animation-delay: 4.92608s; animation-duration: 24.4078s;"></div><div class="particle" style="left: 58.8063%; animation-delay: 10.579s; animation-duration: 22.4765s;"></div><div class="particle" style="left: 44.7401%; animation-delay: 14.6294s; animation-duration: 16.8679s;"></div><div class="particle" style="left: 24.2372%; animation-delay: 4.68373s; animation-duration: 17.8215s;"></div><div class="particle" style="left: 30.8415%; animation-delay: 10.2388s; animation-duration: 18.7143s;"></div><div class="particle" style="left: 74.5564%; animation-delay: 6.44192s; animation-duration: 19.8379s;"></div><div class="particle" style="left: 32.7982%; animation-delay: 7.57375s; animation-duration: 17.4443s;"></div></div>
-        
-        <div class="container mx-auto px-4 text-center z-10">
-           
-              
-            <h1 class="text-6xl md:text-8xl font-bold mb-6 py-2 gold-gradient gold-glow fade-in" style="animation-play-state: running;">
-                musicgold.mp4
+          <!-- Left: Text Content -->
+          <div class="text-center lg:text-left max-w-2xl">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold gold-gradient gold-glow leading-tight mb-6 fade-in break-words">
+              WELCOME TO<br><span class="text-white break-words">MUSICGOLD.CLUB</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-300 fade-in" style="animation-delay: 0.3s; animation-play-state: running;">
-                The UK's Finest Rap &amp; Drill Moments – Pure Gold Clips Only
+            <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-8 fade-in" style="animation-delay: 0.2s;">
+              UK's Finest Rap & Drill Clips. Gold Moments Only. 🔥
             </p>
-            <div class="mt-12 fade-in" style="animation-delay: 0.6s; animation-play-state: running;">
-                <a href="#videos" class="inline-block px-8 py-3 bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-semibold rounded-full hover:from-yellow-500 hover:to-yellow-400 transition-all duration-300 transform hover:scale-105">
-                    View Collection
-                </a>
-            </div>
-            <!-- 🔁 Marquee Ticker -->
-<div class="overflow-hidden whitespace-nowrap text-yellow-500 font-bold text-lg py-4 marquee">
-    <div class="inline-block animate-marquee">
-      Teeway • Digga D • Unknown T • Dave • Potter Payper • Bugzy Malone • Stormzy • J Hus • Fredo • More &nbsp; 
-    </div>
-  </div>
-  
+            <a href="#videos" class="inline-block px-8 py-3 bg-gradient-to-r from-yellow-600 to-yellow-400 text-black font-semibold rounded-full hover:from-yellow-500 hover:to-yellow-300 transition-all duration-300 transform hover:scale-105 fade-in" style="animation-delay: 0.4s;">
+              View Collection
+            </a>
+          </div>
+      
+          <!-- Right: Image or Graphic -->
+          <div class="w-full max-w-sm fade-in" style="animation-delay: 0.6s;">
+            <img src="GIVEWAY.png" alt="MusicGold Visual" class="rounded-2xl shadow-lg ring-2 ring-yellow-500 object-cover">
+          </div>
         </div>
-    </section>
+      </section>
+      
     <section class="relative bg-black py-20">
         <div class="container mx-auto px-6 text-center relative z-10">
           <div class="inline-block relative p-1 rounded-2xl bg-gradient-to-r from-[#B8860B] via-[#FFD700] to-[#FFA500] animate-pulse shadow-[0_0_20px_rgba(255,215,0,0.5)]">
